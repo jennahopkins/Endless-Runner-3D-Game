@@ -11,6 +11,7 @@ public class ScoreManager : MonoBehaviour
 
     public void IncreaseScore(int amount)
     {
+        // increase score if game is not over
         if (gameManager.GameOver) return;
 
         score += amount;

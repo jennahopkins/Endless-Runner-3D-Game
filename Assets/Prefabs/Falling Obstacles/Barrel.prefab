@@ -75,6 +75,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 3388136647974101693, guid: f5a57ad4d3d5ff042b61a9d6c9f8bb5d, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 3453696456049032010, guid: f5a57ad4d3d5ff042b61a9d6c9f8bb5d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

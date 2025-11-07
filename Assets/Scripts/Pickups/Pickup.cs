@@ -11,8 +11,9 @@ public abstract class Pickup : MonoBehaviour
         transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f);
     }
 
-    void OnTriggerEnter(Collider other) 
+    void OnTriggerEnter(Collider other)
     {
+        // destroy pickup and apply effect when player collides
         if (other.CompareTag(playerString)) 
         {
             OnPickup();   

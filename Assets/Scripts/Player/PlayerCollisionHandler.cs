@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerCollisionHandler : MonoBehaviour
@@ -8,6 +9,7 @@ public class PlayerCollisionHandler : MonoBehaviour
 
     const string hitString = "Hit";
     float cooldownTimer = 0f;
+    
 
     LevelGenerator levelGenerator;
 
@@ -21,10 +23,10 @@ public class PlayerCollisionHandler : MonoBehaviour
         cooldownTimer += Time.deltaTime;
     }
 
-    void OnCollisionEnter(Collision other) 
+    void OnCollisionEnter(Collision other)
     {
+        // handle collision with obstacle with cooldown
         if (cooldownTimer < collisionCooldown) return;
-
         levelGenerator.ChangeChunkMoveSpeed(adjustChangeMoveSpeedAmount);
         animator.SetTrigger(hitString);
         cooldownTimer = 0f;

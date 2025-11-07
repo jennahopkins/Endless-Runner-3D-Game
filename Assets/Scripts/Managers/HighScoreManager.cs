@@ -8,6 +8,7 @@ public class HighScoreManager : MonoBehaviour
 
     void Awake()
     {
+        // load and display high score on awake
         float highScore = GetHighScore();
         SetText((int)highScore);
     }
@@ -24,6 +25,7 @@ public class HighScoreManager : MonoBehaviour
 
     public void TrySetNewHighScore(float newScore)
     {
+        // check and set new high score if applicable
         float currentHigh = GetHighScore();
 
         if (newScore > currentHigh)

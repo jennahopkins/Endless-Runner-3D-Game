@@ -70,3 +70,20 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# large files
+/Library/PackageCache/
+Library/PackageCache/com.unity.burst@f7a407abf4d5/.Runtime/libburst-llvm-19.dylib
+/Library/PackageCache/com.unity.burst@f7a407abf4d5/.Runtime/libburst-llvm-19.dylib
+Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+/Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a 
+/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a 
+
+/Library/PackageCache/
+Endless-Runner-3D-Game/Library/PackageCache/com.unity.burst@f7a407abf4d5/.Runtime/libburst-llvm-19.dylib
+/Library/PackageCache/com.unity.burst@f7a407abf4d5/.Runtime/libburst-llvm-19.dylib
+Endless-Runner-3D-Game/Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+/Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+Endless-Runner-3D-Game/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a
+/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a

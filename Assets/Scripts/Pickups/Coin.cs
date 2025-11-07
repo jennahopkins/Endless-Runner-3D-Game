@@ -15,6 +15,6 @@ public class Coin : Pickup
     {
         // increase score and play sound on pickup
         scoreManager.IncreaseScore(scoreAmount);
-        coinSound.Play();
+        AudioSource.PlayClipAtPoint(coinSound.clip, transform.position);
     }
 }

@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Run.slnx"
+    "dotnet.defaultSolution": "Endless-Runner-3D-Game.slnx"
 }
